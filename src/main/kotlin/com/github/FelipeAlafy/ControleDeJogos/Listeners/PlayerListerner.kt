@@ -28,17 +28,6 @@ class PlayerListerner : Listener {
     fun onPlayerDye(event: PlayerDeathEvent) {
         event.deathMessage = ChatColor.RED.toString() + " O(A) " + event.entity.displayName + " morreu de novo VISH KK 3" +
                 " As cordenadas da sua morte foram em X: " + event.entity.location.blockX + " Y: " + event.entity.location.blockY +
-                " Z: " + event.entity.location.blockZ + " Restaurando o XP do jogador(a)."
-        event.newExp = event.newTotalExp
-        event.keepInventory = true
-    }
-
-    @EventHandler
-    fun onPlayerButtonPressed(event: PlayerInteractEvent) {
-        if(event.clickedBlock!!.type == Material.OAK_BUTTON && event.action == Action.RIGHT_CLICK_BLOCK){
-            if(event.player.displayName == "FelipeAlafy"){
-                event.isCancelled = false
-            }
-        }
+                " Z: " + event.entity.location.blockZ
     }
 }
