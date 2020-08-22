@@ -1,0 +1,2 @@
+del "C:\Users\falaf\Mine\Plugins\ControleDeJogos\build\libs\ControleDeJogo-*-all.jar"
+copy "C:\Users\falaf\Mine\Plugins\ControleDeJogos\build\libs\ControleDeJogo-*-all.jar" "C:\Users\falaf\Mine\Plugins\ControleDeJogoLaunchVersion\"
