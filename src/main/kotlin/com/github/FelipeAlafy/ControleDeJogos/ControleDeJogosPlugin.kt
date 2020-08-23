@@ -3,7 +3,6 @@ package com.github.FelipeAlafy.ControleDeJogos
 import com.github.FelipeAlafy.ControleDeJogos.Listeners.Player.PlayerIO
 import org.bukkit.command.Command
 import org.bukkit.command.CommandSender
-import org.bukkit.event.player.PlayerEvent
 import org.bukkit.plugin.java.JavaPlugin
 import com.github.FelipeAlafy.ControleDeJogos.Listeners.Player.PlayerDeath
 import com.github.FelipeAlafy.ControleDeJogos.Recipes.RottenFleshToLeather
